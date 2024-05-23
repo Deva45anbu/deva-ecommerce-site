@@ -26,7 +26,7 @@ jobs:
           run: |
             npm run build
         - name: Print My Secret
-          run: echo $secrets.AWS_S3_BUCKET
+          run: echo $AWS_S3_BUCKET
           env:
             AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         - name: Deploy to S3
