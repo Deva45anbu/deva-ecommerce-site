@@ -1,6 +1,11 @@
+* {
+  font-family: Lora, sans-serif;
+
+  /* color: #B9484E; */
+}
+
 .App {
-  margin: 10px;
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
   font-weight: bolder;
 }
@@ -35,6 +40,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

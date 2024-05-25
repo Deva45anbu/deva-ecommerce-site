@@ -1,13 +1,13 @@
 
 import React from "react"
 import { Route, Routes } from "react-router-dom"
-import { Home } from "./Components/Home"
-import { Login } from "./Components/login"
-import { Products } from "./Components/Products"
-import { AccountInfo } from "./Components/AccountInfo"
-import { Wishlist } from "./Components/WishList"
-import { Carts } from "./Components/Carts"
-import { PageNotFound } from "./Components/Utils/Utils"
+import { Home } from "./Modules/Home/Home"
+import { Login } from "./Modules/Login/login"
+import { Products } from "./Modules/Products/Products"
+import { AccountInfo } from "./Modules/AccountInfo/AccountInfo"
+import { Wishlist } from "./Modules/WishList/WishList"
+import { Carts } from "./Modules/Carts/Carts"
+import { PageNotFound } from "./Modules/Utils/Utils"
 
 
 export const RouteData = () => {
